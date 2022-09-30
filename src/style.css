@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cuerpocarta {
+  background-color: green;
+  height: 300px;
+}
+
+.card {
+  height: 200px;
+  margin: ;
+}
