@@ -18,7 +18,10 @@ window.onload = function() {
     document.getElementById("paloabajo").innerHTML = paloaleatorio;
     document.getElementById("numerocentro").innerHTML = numeroaleatorio;
 
-    return numeroaleatorio + paloaleatorio;
+    return {
+      numeroaleatorio,
+      paloaleatorio
+    };
   }
   generarCartas();
 
@@ -27,7 +30,6 @@ window.onload = function() {
   function generarArray() {
     let cantidadDeCartas = document.getElementById("numero-cartas").value;
     let arrCartas = [];
-    // arrCartas.length = cantidadDeCartas;
     for (let i = 0; i < cantidadDeCartas; i++) {
       let cartaAleatoria = generarCartas();
       arrCartas.push(cartaAleatoria);
@@ -35,7 +37,7 @@ window.onload = function() {
     }
   }
 
-  //Btn hacer que se muestren las cartas
+  //Btn genera  las cartas
   document
     .getElementById("btncrearcartas")
     .addEventListener("click", generarArray);
