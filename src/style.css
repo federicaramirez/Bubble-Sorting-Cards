@@ -1,11 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.cuerpocarta {
+/* .cuerpocarta {
   background-color: green;
-  height: 300px;
-}
+  height: 210px;
+} */
 
 .card {
   height: 200px;
-  margin: ;
+  border: white;
+  width: 20%;
 }
+
+/* body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvguAvcERD9tr1Qg-kxrSgb2QtDPcAjdRd2w&usqp=CAU");
+} */

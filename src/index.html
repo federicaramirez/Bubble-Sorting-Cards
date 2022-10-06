@@ -1,51 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
+</head>
 
-  <body>
-    <div class="contenedor" id="nuevascartas"></div>
-    <!-- <div class="cuerpocarta">
-      <div class="container-fluid text-center">
-        <div class="card" style="width: 18rem;">
-          <div class="card" id="paloarriba"></div>
-          <div class="card" id="numerocentro"></div>
-          <div class="card" id="paloabajo"></div>
-        </div>
-      </div>
-    </div> -->
+<body class="bg-success" vh-100">
 
-    <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        id="numero-cartas"
-        placeholder="Número menor a 10"
-        aria-label="mm"
-        aria-describedby="button-addon2"
-      />
-      <button
-        class="btn btn-outline-secondary"
-        type="button"
-        id="btncrearcartas"
-      >
-        Crear
-      </button>
+    <div class="input-group mb-3 w-25">
+        <input type="text" class="form-control" id="numero-cartas" placeholder="Número menor a 10" aria-label="mm" aria-describedby="button-addon2" />
+        <button class="btn btn-dark" type="button" id="btncrearcartas">
+            Crear
+        </button>
     </div>
     <div>
-      <button type="button" class="btn btn-outline-success" id="btnordenar">
-        Ordenar
-      </button>
+        <button type="button" class="btn btn-danger" id="btnordenar">
+            Ordenar
+        </button>
+
+        <div class="row container-fluid" id="nuevascartas"></div>
     </div>
-  </body>
+</body>
+
 </html>
